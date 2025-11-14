@@ -1,0 +1,26 @@
+{
+  "input": {
+    "technical_score": 4,
+    "communication_score": 6,
+    "dsa_score": 5,
+    "ml_score": 3,
+    "project_explanation_score": 2,
+    "weak_keywords": ["normalization", "pca"],
+    "strong_keywords": ["sorting", "searching"]
+  },
+  "expected_output": {
+    "strengths": ["DSA basics", "Communication average"],
+    "weaknesses": ["Normalization", "PCA", "Weak project explanation"],
+    "priority_topics": ["ML preprocessing fundamentals", "Project clarity improvement"],
+    "roadmap_2_weeks": {
+      "day_1_3": "Project explanation basics",
+      "day_4_7": "ML preprocessing (Normalization, PCA)",
+      "day_8_10": "DSA mid-level practice",
+      "day_11_14": "Communication improvement exercises"
+    },
+    "resources": [
+      {"topic": "ML Preprocessing", "link": "..."},
+      {"topic": "Project Explanation", "link": "..."}
+    ]
+  }
+}

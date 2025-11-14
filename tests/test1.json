@@ -1,0 +1,26 @@
+{
+  "input": {
+    "technical_score": 6,
+    "communication_score": 5,
+    "dsa_score": 4,
+    "ml_score": 7,
+    "project_explanation_score": 3,
+    "weak_keywords": ["normalization", "time complexity"],
+    "strong_keywords": ["CNN", "regression"]
+  },
+  "expected_output": {
+    "strengths": ["ML basics", "CNN theory"],
+    "weaknesses": ["Time complexity", "Project clarity"],
+    "priority_topics": ["DSA fundamentals", "Explainability"],
+    "roadmap_2_weeks": {
+      "day_1_3": "DSA basics + time complexity",
+      "day_4_7": "Project explanation practice",
+      "day_8_10": "ML revision",
+      "day_11_14": "Mock interviews"
+    },
+    "resources": [
+      {"topic": "DSA", "link": "..."},
+      {"topic": "ML", "link": "..."}
+    ]
+  }
+}

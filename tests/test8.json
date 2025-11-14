@@ -1,0 +1,27 @@
+{
+  "input": {
+    "technical_score": 1,
+    "communication_score": 3,
+    "dsa_score": 1,
+    "ml_score": 1,
+    "project_explanation_score": 2,
+    "weak_keywords": ["everything", "syntax", "models"],
+    "strong_keywords": []
+  },
+  "expected_output": {
+    "strengths": [],
+    "weaknesses": ["Fundamentals missing", "Syntax errors", "No ML basics"],
+    "priority_topics": ["Programming basics", "ML foundations", "DSA fundamentals"],
+    "roadmap_2_weeks": {
+      "day_1_3": "Programming basics (variables, loops, syntax)",
+      "day_4_7": "DSA fundamentals (arrays, strings)",
+      "day_8_10": "Machine learning basics",
+      "day_11_14": "Simple project explanation practice"
+    },
+    "resources": [
+      {"topic": "Programming Basics", "link": "..."},
+      {"topic": "DSA Fundamentals", "link": "..."},
+      {"topic": "ML Basics", "link": "..."}
+    ]
+  }
+}

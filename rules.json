@@ -1,0 +1,66 @@
+{
+  "score_ranges": {
+    "0-3": {"label_suffix": "weak", "interpretation": "Needs significant improvement"},
+    "4-6": {"label_suffix": "moderate", "interpretation": "Can improve with targeted practice"},
+    "7-10": {"label_suffix": "strong", "interpretation": "Solid competence"}
+  },
+
+  "metric_labels": {
+    "technical_score": "Technical fundamentals",
+    "communication_score": "Communication & presentation",
+    "dsa_score": "Data Structures & Algorithms",
+    "ml_score": "Machine Learning",
+    "project_explanation_score": "Project explanation & clarity"
+  },
+
+  "keyword_topic_map": {
+    "normalization": "ML basics",
+    "time complexity": "DSA fundamentals",
+    "big-o": "DSA fundamentals",
+    "cnn": "Deep Learning",
+    "regression": "ML basics",
+    "overfitting": "ML basics",
+    "precision": "ML evaluation",
+    "recall": "ML evaluation",
+    "pipelines": "Project clarity",
+    "architecture": "Project clarity"
+  },
+
+  "topic_resources": {
+    "DSA fundamentals": [
+      {"title": "GFG DSA Roadmap", "link": "https://www.geeksforgeeks.org/data-structures/"},
+      {"title": "Striver SDE Sheet", "link": "https://takeuforward.org/interviews/strivers-sde-sheet/ (example)"}
+    ],
+    "ML basics": [
+      {"title": "Andrew Ng ML Course", "link": "https://www.coursera.org/learn/machine-learning"},
+      {"title": "Hands-On ML Book", "link": "https://github.com/ageron/handson-ml2"}
+    ],
+    "Deep Learning": [
+      {"title": "Deep Learning Specialization", "link": "https://www.coursera.org/specializations/deep-learning"},
+      {"title": "CS231n Notes", "link": "http://cs231n.stanford.edu/"}
+    ],
+    "Project clarity": [
+      {"title": "How to Explain Projects", "link": "https://www.freecodecamp.org/news/how-to-talk-about-your-projects/"},
+      {"title": "STAR Method Guide", "link": "https://www.themuse.com/advice/star-interview-method"}
+    ],
+    "ML evaluation": [
+      {"title": "Evaluation Metrics", "link": "https://developers.google.com/machine-learning/crash-course/classification/accuracy"},
+      {"title": "Precision and Recall (guide)", "link": "https://scikit-learn.org/stable/modules/model_evaluation.html"}
+    ],
+    "Communication & presentation": [
+      {"title": "Presentation Skills", "link": "https://www.coursera.org/learn/presentation-skills"},
+      {"title": "Storytelling for Engineers", "link": "https://hbr.org/2014/04/how-to-tell-a-great-story"}
+    ]
+  },
+
+  "roadmap_defaults": {
+    "total_days": 14,
+    "structure": {
+      "early_focus_days": 3,
+      "mid_focus_days": 4,
+      "revision_days": 3,
+      "mock_days": 4
+    },
+    "early_focus_rules": "Address the top 1 priority topic immediately (days 1..early_focus_days)."
+  }
+}

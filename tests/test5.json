@@ -1,0 +1,26 @@
+{
+  "input": {
+    "technical_score": 9,
+    "communication_score": 8,
+    "dsa_score": 7,
+    "ml_score": 9,
+    "project_explanation_score": 6,
+    "weak_keywords": ["none"],
+    "strong_keywords": ["transformers", "optimization", "graphs"]
+  },
+  "expected_output": {
+    "strengths": ["Strong ML fundamentals", "Advanced DSA skills", "Good communication"],
+    "weaknesses": ["Minor project explanation gaps"],
+    "priority_topics": ["Project explanation refinement"],
+    "roadmap_2_weeks": {
+      "day_1_3": "Project explanation polish",
+      "day_4_7": "Mock project demos",
+      "day_8_10": "Advanced ML practice",
+      "day_11_14": "Final interview simulations"
+    },
+    "resources": [
+      {"topic": "Project Demos", "link": "..."},
+      {"topic": "Advanced ML", "link": "..."}
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "input": {
+    "technical_score": 7,
+    "communication_score": 9,
+    "dsa_score": 6,
+    "ml_score": 8,
+    "project_explanation_score": 9,
+    "weak_keywords": ["none"],
+    "strong_keywords": ["gesture control", "clarity", "confidence"]
+  },
+  "expected_output": {
+    "strengths": ["Excellent communication", "Strong project clarity", "Strong ML skills"],
+    "weaknesses": ["Minor technical gaps"],
+    "priority_topics": ["Advanced DSA", "Advanced ML optimisation"],
+    "roadmap_2_weeks": {
+      "day_1_3": "Advanced DSA patterns",
+      "day_4_7": "ML optimization + hyperparameter tuning",
+      "day_8_10": "Algorithm deep dive",
+      "day_11_14": "Advanced mock interviews"
+    },
+    "resources": [
+      {"topic": "Advanced DSA", "link": "..."},
+      {"topic": "ML Optimization", "link": "..."}
+    ]
+  }
+}

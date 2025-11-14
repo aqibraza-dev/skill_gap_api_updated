@@ -1,0 +1,26 @@
+{
+  "input": {
+    "technical_score": 2,
+    "communication_score": 7,
+    "dsa_score": 3,
+    "ml_score": 2,
+    "project_explanation_score": 4,
+    "weak_keywords": ["overfitting", "hashing"],
+    "strong_keywords": ["public speaking", "confidence"]
+  },
+  "expected_output": {
+    "strengths": ["Communication skills", "Confidence"],
+    "weaknesses": ["Overfitting", "Hashing"],
+    "priority_topics": ["ML fundamentals", "DSA hashing"],
+    "roadmap_2_weeks": {
+      "day_1_3": "ML basics + overfitting",
+      "day_4_7": "DSA hashing + practice",
+      "day_8_10": "Technical fundamentals",
+      "day_11_14": "Mock technical interviews"
+    },
+    "resources": [
+      {"topic": "Machine Learning Basics", "link": "..."},
+      {"topic": "DSA Hashing", "link": "..."}
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "input": {
+    "technical_score": 8,
+    "communication_score": 3,
+    "dsa_score": 6,
+    "ml_score": 4,
+    "project_explanation_score": 5,
+    "weak_keywords": ["eye contact", "filler words"],
+    "strong_keywords": ["loops", "arrays"]
+  },
+  "expected_output": {
+    "strengths": ["Technical fundamentals", "DSA basics"],
+    "weaknesses": ["Communication clarity", "Eye contact"],
+    "priority_topics": ["Communication improvement", "Behavioral skills"],
+    "roadmap_2_weeks": {
+      "day_1_3": "Communication basics + reduce filler words",
+      "day_4_7": "Eye contact & confidence training",
+      "day_8_10": "ML basics revision",
+      "day_11_14": "Mock communication interviews"
+    },
+    "resources": [
+      {"topic": "Communication", "link": "..."},
+      {"topic": "ML basics", "link": "..."}
+    ]
+  }
+}

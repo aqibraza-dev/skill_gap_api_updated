@@ -1,0 +1,26 @@
+{
+  "input": {
+    "technical_score": 3,
+    "communication_score": 4,
+    "dsa_score": 2,
+    "ml_score": 5,
+    "project_explanation_score": 6,
+    "weak_keywords": ["pointers", "recursion"],
+    "strong_keywords": ["classification", "metrics"]
+  },
+  "expected_output": {
+    "strengths": ["ML evaluation metrics", "Classification basics"],
+    "weaknesses": ["Pointers", "Recursion"],
+    "priority_topics": ["DSA fundamentals", "Technical basics"],
+    "roadmap_2_weeks": {
+      "day_1_3": "DSA basics + recursion",
+      "day_4_7": "Pointers fundamentals",
+      "day_8_10": "Technical MCQ practice",
+      "day_11_14": "Mock interviews"
+    },
+    "resources": [
+      {"topic": "DSA", "link": "..."},
+      {"topic": "Basic Programming", "link": "..."}
+    ]
+  }
+}

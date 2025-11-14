@@ -1,0 +1,26 @@
+{
+  "input": {
+    "technical_score": 5,
+    "communication_score": 2,
+    "dsa_score": 6,
+    "ml_score": 5,
+    "project_explanation_score": 4,
+    "weak_keywords": ["stuttering", "low confidence"],
+    "strong_keywords": ["trees", "probability"]
+  },
+  "expected_output": {
+    "strengths": ["DSA trees", "Probability basics"],
+    "weaknesses": ["Stuttering", "Low confidence"],
+    "priority_topics": ["Communication confidence", "Behavioral improvement"],
+    "roadmap_2_weeks": {
+      "day_1_3": "Confidence-building exercises",
+      "day_4_7": "Speech practice + remove stuttering",
+      "day_8_10": "DSA mid-level revision",
+      "day_11_14": "Mock HR interviews"
+    },
+    "resources": [
+      {"topic": "Communication Confidence", "link": "..."},
+      {"topic": "Speech Improvement", "link": "..."}
+    ]
+  }
+}

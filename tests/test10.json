@@ -1,0 +1,26 @@
+{
+  "input": {
+    "technical_score": 5,
+    "communication_score": 5,
+    "dsa_score": 5,
+    "ml_score": 5,
+    "project_explanation_score": 5,
+    "weak_keywords": ["none"],
+    "strong_keywords": ["basics", "stable", "average"]
+  },
+  "expected_output": {
+    "strengths": ["Balanced fundamentals", "Good technical stability"],
+    "weaknesses": ["No standout strengths", "No deep specialization"],
+    "priority_topics": ["Skill specialization", "Deep dive into one domain"],
+    "roadmap_2_weeks": {
+      "day_1_3": "Pick one specialization (DSA/ML/Backend)",
+      "day_4_7": "Deep dive into chosen topic",
+      "day_8_10": "Build 1 mini-project in chosen track",
+      "day_11_14": "Mock interviews in that specialization"
+    },
+    "resources": [
+      {"topic": "Specialization Guide", "link": "..."},
+      {"topic": "Focused Learning", "link": "..."}
+    ]
+  }
+}
